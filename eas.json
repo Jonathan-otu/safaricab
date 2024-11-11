@@ -1,0 +1,55 @@
+
+{
+  "cli": {
+    "version": ">= 13.1.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_cmF0aW9uYWwtY3Jhd2RhZC02NS5jbGVyay5hY2NvdW50cy5kZXYk",
+        "EXPO_PUBLIC_PLACES_API_KEY": "AIzaSyCJPzCSsJ8moQJUS7LBXsX8EGEJ6txxNE0",
+        "EXPO_PUBLIC_DIRECTIONS_API_KEY": "AIzaSyCJPzCSsJ8moQJUS7LBXsX8EGEJ6txxNE0",
+        "EXPO_PUBLIC_GOOGLE_API_KEY": "AIzaSyDY2em2wGaOiV_F6TLjXT8eAn7iZnRIpm4",
+        "DATABASE_URL": "postgresql://jsm_safaricab_owner:CQkwmB38ePuW@ep-lively-bar-a2h49iud.eu-central-1.aws.neon.tech/jsm_safaricab?sslmode=require",
+        "EXPO_PUBLIC_SERVER_URL": "https://uber.dev/",
+        "EXPO_PUBLIC_GEOAPIFY_API_KEY": "f1a647fcb42d4f81a2629bde5e719e95",
+        "EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY": "pk_test_51QIUihI82qEjuH5vSqGfOnphtB3fba92M1W6CeH5hX0eMKTtJyZS2aOS8MnoTuai01jn3wvYkwqIqbNwERmK4gpm00PAMpfVsi",
+        "STRIPE_SECRET_KEY": "sk_test_51QIUihI82qEjuH5v0y1JWz2dCARhfJ0alyA5neKbejILpTpuaHcmyCqgFZHqwRJLc0HFchl0rTGe6FsfmxQSN7hu00eDAKejMp"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_cmF0aW9uYWwtY3Jhd2RhZC02NS5jbGVyay5hY2NvdW50cy5kZXYk",
+        "EXPO_PUBLIC_PLACES_API_KEY": "AIzaSyCJPzCSsJ8moQJUS7LBXsX8EGEJ6txxNE0",
+        "EXPO_PUBLIC_DIRECTIONS_API_KEY": "AIzaSyCJPzCSsJ8moQJUS7LBXsX8EGEJ6txxNE0",
+        "EXPO_PUBLIC_GOOGLE_API_KEY": "AIzaSyDY2em2wGaOiV_F6TLjXT8eAn7iZnRIpm4",
+        "DATABASE_URL": "postgresql://jsm_safaricab_owner:CQkwmB38ePuW@ep-lively-bar-a2h49iud.eu-central-1.aws.neon.tech/jsm_safaricab?sslmode=require",
+        "EXPO_PUBLIC_SERVER_URL": "https://uber.dev/",
+        "EXPO_PUBLIC_GEOAPIFY_API_KEY": "f1a647fcb42d4f81a2629bde5e719e95",
+        "EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY": "pk_test_51QIUihI82qEjuH5vSqGfOnphtB3fba92M1W6CeH5hX0eMKTtJyZS2aOS8MnoTuai01jn3wvYkwqIqbNwERmK4gpm00PAMpfVsi",
+        "STRIPE_SECRET_KEY": "sk_test_51QIUihI82qEjuH5v0y1JWz2dCARhfJ0alyA5neKbejILpTpuaHcmyCqgFZHqwRJLc0HFchl0rTGe6FsfmxQSN7hu00eDAKejMp"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_cmF0aW9uYWwtY3Jhd2RhZC02NS5jbGVyay5hY2NvdW50cy5kZXYk",
+        "EXPO_PUBLIC_PLACES_API_KEY": "AIzaSyCJPzCSsJ8moQJUS7LBXsX8EGEJ6txxNE0",
+        "EXPO_PUBLIC_DIRECTIONS_API_KEY": "AIzaSyCJPzCSsJ8moQJUS7LBXsX8EGEJ6txxNE0",
+        "EXPO_PUBLIC_GOOGLE_API_KEY": "AIzaSyDY2em2wGaOiV_F6TLjXT8eAn7iZnRIpm4",
+        "DATABASE_URL": "postgresql://jsm_safaricab_owner:CQkwmB38ePuW@ep-lively-bar-a2h49iud.eu-central-1.aws.neon.tech/jsm_safaricab?sslmode=require",
+        "EXPO_PUBLIC_SERVER_URL": "https://uber.dev/",
+        "EXPO_PUBLIC_GEOAPIFY_API_KEY": "f1a647fcb42d4f81a2629bde5e719e95",
+        "EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY": "pk_test_51QIUihI82qEjuH5vSqGfOnphtB3fba92M1W6CeH5hX0eMKTtJyZS2aOS8MnoTuai01jn3wvYkwqIqbNwERmK4gpm00PAMpfVsi",
+        "STRIPE_SECRET_KEY": "sk_test_51QIUihI82qEjuH5v0y1JWz2dCARhfJ0alyA5neKbejILpTpuaHcmyCqgFZHqwRJLc0HFchl0rTGe6FsfmxQSN7hu00eDAKejMp"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
